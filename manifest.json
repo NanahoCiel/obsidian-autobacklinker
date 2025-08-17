@@ -1,0 +1,10 @@
+{
+  "id": "autobacklinker",
+  "name": "AutoBacklinker",
+  "version": "0.0.1",
+  "minAppVersion": "0.15.0",
+  "description": "Automatically wraps matching words in [[wikilinks]] based on note titles.",
+  "author": "NanahoCiel",
+  "authorUrl": "https://github.com/NanahoCiel",
+  "main": "main.js"
+}
