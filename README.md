@@ -26,7 +26,7 @@ Automatically wraps matching words in your notes with `[[wikilinks]]` using **ex
 
 ## 📦 Install (Manual)
 1. Build (or download release) to get `main.js`.
-2. Put these in your vault folder: `.obsidian/plugins/obsidian-autobacklinker/`
+2. Put these in your vault folder: `.obsidian/plugins/autobacklinker/`
    - `manifest.json`
    - `main.js`
    - *(optional)* `styles.css`
