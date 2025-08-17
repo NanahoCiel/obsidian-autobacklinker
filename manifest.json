@@ -1,10 +1,11 @@
 {
-  "id": "autobacklinker",
+  "id": "obsidian-autobacklinker",
   "name": "AutoBacklinker",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "minAppVersion": "0.15.0",
-  "description": "Automatically wraps matching words in [[wikilinks]] based on note titles.",
-  "author": "NanahoCiel",
+  "description": "Automatically creates backlinks between notes by scanning for note titles in text.",
+  "author": "Ciel",
   "authorUrl": "https://github.com/NanahoCiel",
-  "main": "main.js"
+  "isDesktopOnly": false,
+  "js": "main.js"
 }
