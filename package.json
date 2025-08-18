@@ -1,6 +1,6 @@
 {
-  "name": "obsidian-autobacklinker",
-  "version": "1.0.0",
+  "name": "autobacklinker",
+  "version": "1.0.1",
   "description": "Automatically creates backlinks between notes by scanning for note titles in text.",
   "main": "main.js",
   "scripts": {
