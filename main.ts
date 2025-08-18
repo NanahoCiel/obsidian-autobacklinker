@@ -89,27 +89,27 @@ export default class AutoBacklinker extends Plugin {
         // 명령어 등록
         this.addCommand({
             id: "ab-toggle-auto",
-            name: "AutoBacklinker: Toggle auto mode (on-save)",
+            name: "Toggle auto mode (on-save)",
             callback: () => this.toggleAutoMode()
         });
         this.addCommand({
             id: "ab-rebuild-index",
-            name: "AutoBacklinker: Rebuild title index",
+            name: "Rebuild title index",
             callback: () => { this.rebuildTitleIndex(); new Notice("🔄 Title index rebuilt."); }
         });
         this.addCommand({
             id: "ab-current",
-            name: "AutoBacklinker: Process current note (one-off)",
+            name: "Process current note (one-off)",
             callback: () => this.processCurrent()
         });
         this.addCommand({
             id: "ab-incremental",
-            name: "AutoBacklinker: Process notes changed since last run",
+            name: "Process notes changed since last run",
             callback: () => this.processIncremental()
         });
         this.addCommand({
             id: "ab-vault",
-            name: "AutoBacklinker: Process whole vault (one-off)",
+            name: "Process whole vault (one-off)",
             callback: () => this.processVault()
         });
 
