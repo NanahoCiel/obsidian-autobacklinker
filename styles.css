@@ -324,6 +324,20 @@
     animation: fadeIn 0.3s ease;
 }
 
+/* 설정 탭 스타일 */
+.ab-advanced-header {
+    margin-top: 2em;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 1em;
+}
+
+.ab-status-div {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+}
+
 /* 다크 모드 지원 */
 .theme-dark .template-pattern,
 .theme-dark .template-replacement {

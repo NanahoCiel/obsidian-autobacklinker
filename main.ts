@@ -1103,10 +1103,7 @@ class ABSettingTab extends PluginSettingTab {
             });
 
         // === 고급 설정 ===
-        const advancedHeader = containerEl.createEl("h3", { text: "Advanced Settings / 고급 설정" });
-        advancedHeader.style.marginTop = "2em";
-        advancedHeader.style.borderTop = "1px solid var(--background-modifier-border)";
-        advancedHeader.style.paddingTop = "1em";
+        const advancedHeader = containerEl.createEl("h3", { text: "Advanced Settings / 고급 설정", cls: "ab-advanced-header" });
 
         new Setting(containerEl)
             .setName(t.settings.smartFiltering.showPreview.name)
@@ -1141,11 +1138,7 @@ class ABSettingTab extends PluginSettingTab {
                 }));
 
         // === 상태 정보 ===
-        const statusDiv = containerEl.createDiv();
-        statusDiv.style.marginTop = "2em";
-        statusDiv.style.padding = "1em";
-        statusDiv.style.backgroundColor = "var(--background-secondary)";
-        statusDiv.style.borderRadius = "5px";
+        const statusDiv = containerEl.createDiv({ cls: "ab-status-div" });
         
         statusDiv.createEl("div", { 
             text: `${t.settings.lastIncrementalRun}: ${this.plugin.settings.lastRunISO ?? "—"}` 
