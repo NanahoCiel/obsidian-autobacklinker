@@ -1,7 +1,7 @@
 {
   "id": "autobacklinker",
   "name": "AutoBacklinker",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "minAppVersion": "1.5.0",
   "description": "Automatically creates backlinks between notes by scanning for note titles in text.",
   "author": "Ciel",

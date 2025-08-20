@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(touch:*)",
+      "Bash(npm run build:*)",
+      "Bash(grep:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
